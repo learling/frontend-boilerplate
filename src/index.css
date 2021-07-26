@@ -1,0 +1,65 @@
+::-moz-selection {
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+body {
+  min-height: 111vh;
+}
+
+a,
+.page-link {
+  color: #343a408a !important;
+}
+
+a:hover,
+.page-link:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.active {
+  border-bottom: solid #343a408a 1px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.h-0 {
+  height: 0;
+}
+
+.navbar-brand a {
+  border: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .form-box {
+    max-width: 600px !important;
+    margin: auto;
+  }
+  .table {
+    table-layout: fixed;
+  }
+}
